@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">ModerArtUI</string>
     <string name="action_information">More Information</string>
+    <string name="inspiration">Inspired by the works of an artist such as</string>
+    <string name="authors">Piet Mondrian and Ben Nicholson</string>
+    <string name="clickbelow">Click below to learn more!</string>
 </resources>

@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.SeekBar;
@@ -77,8 +78,9 @@ public class MainActivity extends AppCompatActivity  {
         if (id == R.id.action_info) {
             // custom dialog
             final Dialog dialog = new Dialog(this);
+            dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
             dialog.setContentView(R.layout.dialog);
-            dialog.setTitle("Title...");
+            //dialog.setTitle("Title...");
 
             // set the custom dialog components - text, image and button
             TextView text = (TextView) dialog.findViewById(R.id.text);
